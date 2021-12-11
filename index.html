@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Товары</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        
+        <aside class="sidebar">
+
+            <div class="sidebar__logo">
+
+                <a href="#" class="sidebar__image">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <p class="sidebar__name">
+                    Romsem
+                </p>    
+            </div>
+
+            <nav class="sidebar__menu">
+
+                <ul class="sidebar__list">
+                    <li>
+                        <img src="./images/menu_link1.svg" alt="pizza">
+                        <a href="#" class="sidebar__link">Пицца</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link2.svg" alt="set">
+                        <a href="#" class="sidebar__link">Сеты</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link3.svg" alt="wok">
+                        <a href="#" class="sidebar__link">WOK</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link4.svg" alt="rolls">
+                        <a href="#" class="sidebar__link">Роллы</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link5.svg" alt="sushi">
+                        <a href="#" class="sidebar__link">Суши</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link6.svg" alt="salad">
+                        <a class="sidebar__list_soon" href="#" class="sidebar__link">Салаты</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link7.svg" alt="soup">
+                        <a class="sidebar__list_soon" href="#" class="sidebar__link">Супы</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link8.svg" alt="corn-dog">
+                        <a href="#" class="sidebar__link">Корн доги</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link9.svg" alt="drink">
+                        <a href="#" class="sidebar__link">Напитки</a>
+                    </li>
+                    <li>
+                        <img src="./images/menu_link10.svg" alt="sale">
+                        <a href="#" class="sidebar__link">Акции</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </aside>
+
+        <main class="main">
+
+            <header class="header">
+
+                <div class="header__contacts">
+
+                        <span class="header__subtitle">Наш телефон</span>
+        
+                        <span class="header__number">
+                            +996 705 188 955
+                        </span>
+        
+                        <span class="header__number">
+                            +996 555 188 955
+                        </span>
+        
+                        <span class="header__work-hours">
+                            <img src="./images/clock.svg" alt="clock">
+                            работаем с 10:00 до 00:00
+                        </span>
+
+                </div>
+
+                <div class="header__location">
+
+                    <p class="header__city">
+                        Город:
+                    </p>
+
+                    <a class="header__selected-city" href="#">
+                        Бишкек
+                    </a>
+
+                </div>
+
+                <div class="header__menu">
+
+                    <a href="#" class="header__link">Отзывы</a>
+        
+                    <a href="#" class="header__link">Доставка и оплата</a>
+
+                    <button type="button" class="header__search">
+                        <img src="./images/Search.svg" alt="search">
+                    </button>
+
+                </div>
+
+            </header>
+
+            <section class="content">
+
+                <div class="content__top">
+
+                    <div class="content__title">
+
+                        <img src="./images/sets_main.svg" alt="set">
+                        <h1>Сеты</h1>
+    
+                    </div>
+    
+                    <div class="content__selector selector">
+    
+                        <label class="selector__label" for="sorting-type">Сортировка</label>
+    
+                        <select class="selector__option" name="sorting-type" id="sorting-type">
+                            <option value="default">По умолчанию</option>
+                            <option value="name">Название</option>
+                            <option value="cheap">Сначала дешевле</option>
+                            <option value="expensive">Сначала дороже</option>
+                            <option value="pieces">Количество кусочков</option>
+                            <option value="weight">Вес</option>
+                        </select>
+    
+                    </div>
+
+                </div>
+
+                <div class="content__products products">
+
+                    <div class="products__items">
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/salomon.png" alt="set-img">
+                            </div>
+                            <h3 class="products__name">Саломон сет</h3>
+                            <p class="products__description">1050 грамм, 30 кусочков</p>
+                            
+                            <div class="products__purchase">
+                                <p class="products__cost">1500 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/5_philadelf.png" alt="set-img">
+                            </div>
+                            <h3 class="products__name">Сет "5 Филадельфий"</h3>
+                            <p class="products__description">1120 грамм 40 кусочков</p>
+
+                            <div class="products__purchase">
+                                <p class="products__cost">1499 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/philad_salmon.png" alt="set-img">
+                            </div>
+                            <h3 class="products__name">Филадельфия и лосось сет</h3>
+                            <p class="products__description">1260 грамм 36 кусочков</p>
+
+                            <div class="products__purchase">
+                                <p class="products__cost">1499 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/6_philadelf.png" alt="set-img">
+                            </div>
+                            <h3 class="products__name">Сет "6 Филадельфий"</h3>
+                            <p class="products__description">1320 грамм 46 кусочков</p>
+
+                            <div class="products__purchase">
+                                <p class="products__cost">1559 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/top_set.png" alt="set-img">
+                            </div>
+                            <h3 class="products__name">Топовый сет</h3>
+                            <p class="products__description">1020 грамм 40 кусочков</p>
+
+                            <div class="products__purchase">
+                                <p class="products__cost">1519 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/kamikadze.png" alt="set-img">
+                            </div>
+                            <h3 class="products__name">Камикадзе сет</h3>
+                            <p class="products__description">1200 грамм 52 кусочка</p>
+
+                            <div class="products__purchase">
+                                <p class="products__cost">1469 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/4_philadelf.png" alt="set-img">
+                            </div>
+                            <h3 class="products__name">Сет "4 Филадельфии"</h3>
+                            <p class="products__description">1100 грамм 32 кусочка</p>
+
+                            <div class="products__purchase">
+                                <p class="products__cost">1559 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/love_set.png" alt="set-img">
+                            </div>
+                            <h3 class="products__name">Филадельфия LOVE сет</h3>
+                            <p class="products__description">1000 грамм 40 кусочков</p>
+
+                            <div class="products__purchase">
+                                <p class="products__cost">1479 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="./images/yakudza.png" alt="set-img">
+                            </div>          
+                            <h3 class="products__name">Якудза сет</h3>
+                            <p class="products__description">1270 грамм 50 кусочков</p>
+
+                            <div class="products__purchase">
+                                <p class="products__cost">1499 СОМ</p>
+                                <button class="products__button">Хочу!</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="content__about about">
+
+                    <h2 class="about__title">Заказать суши в Бишкеке</h2>
+
+                    <p class="about__text">
+                        Ресторан “Суши и Лапша” предлагаем своим клиентам самые вкусные суши с доставкой на дом, 
+                        приготовленные по классическим и адаптированным к европейской аудитории рецептам, а также собственным наработкам наших поваров. 
+                        Мы ценим время наших клиентов, поэтому вы можете заказать суши в Бишкеке с доставкой на дом или в офис. 
+                    </p>
+                    <p class="about__text">
+                        В нашем меню более 20 видов суши:
+                    </p>
+                        <ul class="about__list">
+                            <li>Классические с сырым лососем, тунцом, окунем.</li>
+                            <li>Экзотические с тигровой креветкой, морским гребешком.</li>
+                            <li>Пикантные с копченым лососем, угрем.</li>
+                        </ul>
+                    <p class="about__text about__text_faded">    
+                        В меню также представлены гунканы: с начинкой из красной икры и тобико, а также феликсы, 
+                        где японский майонез сочетается с рыбой, морепродуктами, угрем. Любители острых блюд могут купить суши с соусом спайси. 
+                        Популярные начинки — копченая курица, снежный краб, креветки, гребешки, тунец, лосось и окунь.
+                    </p>
+
+                    <button class="about__button">
+                        Подробнее
+                        <img src="./images/detail_arrow.svg" alt="arrow">
+                    </button>
+
+                </div>
+
+            </section>
+
+            <footer class="footer">
+                
+                <nav class="footer__menu">
+                    <ul class="footer__list">
+                        <li>
+                            <a href="#" class="footer__link">О компании</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Доставка и оплата</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Лента материалов</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Политика возврата</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="footer__feedback feedback">
+
+                    <h3 class="feedback__title">Введите номер</h3>
+                    <input class="feedback__input" type="tel" name="feedback-tel" placeholder="+996 (__) ___ __ __">
+                    <p class="feedback__text">
+                        Выберите удобный 
+                        мессенджер для общения
+                    </p>
+
+                    <div class="feedback__messangers messangers">
+
+                        <a href="#" class="messangers__link">
+                            <img src="./images/whatsapp.svg" alt="whatsapp">
+                        </a>
+                        <a href="#" class="messangers__link">
+                            <img src="./images/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="#" class="messangers__link">
+                            <img src="./images/instagram.svg" alt="instagram">
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="footer__contacts">
+                    <p class="footer__contact">Тел:+996 705 188 955 </p>
+                    <p class="footer__contact">Тел:+996 555 188 955 </p>
+                    <p class="footer__contact">Адрес:Бакаева 126</p>
+                </div>
+
+            </footer>
+
+        </main>
+
+        <aside class="add-info">
+
+            <div class="add-info__cart cart">
+
+                <div class="cart__chosen-sets">
+
+                    <h3 class="cart__title">Ваша корзина пуста.</h3>
+                    <p class="cart__text">Добавьте же скорее что-нибудь!</p>
+
+                </div>
+                <div class="cart__free-delivery">
+                    <p class="cart__condition">Бесплатная доставка от 800 СОМ</p>
+                </div>
+
+            </div>
+
+            <div class="add-info__address adress">
+                
+                <div class="adress__map">
+                    <img src="./images/map.png" alt="map">
+                </div>
+
+                <div class="adress__location">
+                    <h3 class="cart__title">Укажите адрес</h3>
+                    <p class="cart__text">И узнайте время доставки</p>
+                </div>
+
+            </div>
+
+        </aside>
+
+    </div>
+    
+</body>
+</html>
